@@ -1,7 +1,7 @@
 rule Generic : generic secret{
     meta:
         description = "Detects generic secret - may produce false results"
-        severity = "LOW"
+        severity = "MEDIUM"
         id = "LS0019"
 
     strings:
